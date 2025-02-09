@@ -66,7 +66,7 @@ def main(page: ft.Page):
     insere=ft.TextField(label='valor o desejado',on_change=on_change)
     envia=ft.OutlinedButton('enviar',on_click=caucula)
    
-    page.title='MandaVe'
+    page.title='Conversor de Moedas'
     page.favicon = ft.Icon(name="favicon.ico")
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
     txt1 = ft.Text("O primeiro controle seleciona o número de colunas:")
